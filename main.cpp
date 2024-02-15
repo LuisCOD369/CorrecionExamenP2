@@ -13,19 +13,24 @@ int main(int argc, char *argv[])
 
     QTranslator traduccion;
     QStringList idiomas;
-    idiomas << "Spanish" <<"Italian";
+    idiomas << "Spanish" <<"Italian"<<"Potugues";
 
     QString idiomaSeleccionado = QInputDialog::getItem(NULL,
-                                                       "language",
-                                                       "Select an Lenguage",
-                                                       idiomas);
+                               "language",
+                               "Select an Lenguage",
+                               idiomas);
     if(idiomaSeleccionado=="Italian"){
-        traduccion.load(":/it_it.qm");
-    }
+        traduccion.load(":/italiano.qm");
+    }else
+    if(idiomaSeleccionado != "Portugues"){
+        traduccion.load(":/portugues.qm");
 
-    if(idiomaSeleccionado != "Spanish"){
-        a.installTranslator(&traduccion);
     }
+    if (idiomaSeleccionado != "Spanish"){
+        a.installTranslator(&traduccion);
+
+    }
+    a.setStyle("fusion");
 
     Registro w;
     w.show();

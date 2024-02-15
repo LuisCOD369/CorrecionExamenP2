@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="it_IT">
+<TS version="2.1" language="it_IT" sourcelanguage="es_EC">
 <context>
     <name>AcercaDeForm</name>
     <message>
-        <source>Form</source>
-        <translation type="vanished">forma</translation>
-    </message>
-    <message>
         <location filename="creditosform.ui" line="14"/>
         <source>Creditos</source>
-        <translation type="unfinished"></translation>
+        <translation>Crediti</translation>
     </message>
     <message>
         <location filename="creditosform.ui" line="28"/>
         <source>GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="creditosform.ui" line="35"/>
         <source>Pillajo Luis</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="creditosform.ui" line="49"/>
-        <source>Estudiante:</source>
-        <translation>Alunno:</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="creditosform.ui" line="42"/>
@@ -33,31 +24,32 @@
         <translation>Collegamento GitHub:</translation>
     </message>
     <message>
-        <source>Go!</source>
-        <translation type="vanished">Dai!</translation>
+        <location filename="creditosform.ui" line="49"/>
+        <source>Estudiante:</source>
+        <translation>Alunno:</translation>
     </message>
 </context>
 <context>
     <name>IngresoForm</name>
     <message>
-        <source>Form</source>
-        <translation type="vanished">Forma</translation>
+        <location filename="ingresoform.ui" line="14"/>
+        <source>Ingreso de estudiante</source>
+        <translation>Reddito studentesco</translation>
     </message>
     <message>
-        <source>Nota 2:</source>
-        <translation type="vanished">Nota 2:</translation>
+        <location filename="ingresoform.ui" line="27"/>
+        <source>Parcial 1:</source>
+        <translation>Parziale 1:</translation>
     </message>
     <message>
-        <source>Apellido:</source>
-        <translation type="vanished">Cognome:</translation>
+        <location filename="ingresoform.ui" line="34"/>
+        <source>Nombres:</source>
+        <translation>Nomi:</translation>
     </message>
     <message>
-        <source>Nota 1:</source>
-        <translation type="vanished">Nota 1:</translation>
-    </message>
-    <message>
-        <source>Nombre:</source>
-        <translation type="vanished">Nome:</translation>
+        <location filename="ingresoform.ui" line="74"/>
+        <source>Parcial 2:</source>
+        <translation>Parziale 2:</translation>
     </message>
     <message>
         <location filename="ingresoform.cpp" line="25"/>
@@ -69,41 +61,13 @@
         <source>El campo del nombre no puede quedar vacio</source>
         <translation>Il campo del nome non può essere lasciato vuoto</translation>
     </message>
-    <message>
-        <source>El campo del apellido no puede quedar vacio</source>
-        <translation type="vanished">Il campo del cognome non può essere lasciato vuoto</translation>
-    </message>
-    <message>
-        <location filename="ingresoform.ui" line="14"/>
-        <source>Ingreso de estudiante</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ingresoform.ui" line="27"/>
-        <source>Parcial 1:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ingresoform.ui" line="34"/>
-        <source>Nombres:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ingresoform.ui" line="74"/>
-        <source>Parcial 2:</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>Registro</name>
     <message>
-        <source>Registro</source>
-        <translation type="vanished">Documentazione</translation>
-    </message>
-    <message>
         <location filename="registro.ui" line="14"/>
         <source>Notas estudiantes UPS</source>
-        <translation type="unfinished"></translation>
+        <translation>Appunti degli studenti UPS</translation>
     </message>
     <message>
         <location filename="registro.ui" line="46"/>
@@ -115,7 +79,7 @@
         <location filename="registro.ui" line="53"/>
         <location filename="registro.cpp" line="143"/>
         <source>Cargar</source>
-        <translation type="unfinished"></translation>
+        <translation>Trasportare</translation>
     </message>
     <message>
         <location filename="registro.ui" line="70"/>
@@ -135,7 +99,7 @@
     <message>
         <location filename="registro.ui" line="91"/>
         <source>Ctrl+I</source>
-        <translation>Ctrl+I</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="registro.ui" line="96"/>
@@ -145,7 +109,7 @@
     <message>
         <location filename="registro.ui" line="99"/>
         <source>Ctrl+R</source>
-        <translation>Ctrl+R</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="registro.ui" line="104"/>
@@ -158,10 +122,6 @@
         <translation>Nome</translation>
     </message>
     <message>
-        <source>Apellido</source>
-        <translation type="vanished">Cognome</translation>
-    </message>
-    <message>
         <location filename="registro.cpp" line="13"/>
         <source>Nota 1</source>
         <translation>Nota 1</translation>
@@ -169,7 +129,7 @@
     <message>
         <location filename="registro.cpp" line="13"/>
         <source>Nota 2</source>
-        <translation>Nota 2</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="registro.cpp" line="13"/>
@@ -184,27 +144,12 @@
     <message>
         <location filename="registro.cpp" line="13"/>
         <source>Nota Min</source>
-        <translation>Nota min</translation>
+        <translation>Nota minima</translation>
     </message>
     <message>
         <location filename="registro.cpp" line="63"/>
         <source>Nota muy baja</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="registro.cpp" line="80"/>
-        <source>Nombre,Nota1,Nota2,NotaFinal,Estado
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="registro.cpp" line="180"/>
-        <source>¿Desea salir del programa?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Imposibe</source>
-        <translation type="vanished">Impossibile</translation>
+        <translation>grado molto basso</translation>
     </message>
     <message>
         <location filename="registro.cpp" line="69"/>
@@ -218,10 +163,10 @@
         <translation>File CSV (*.csv)</translation>
     </message>
     <message>
-        <source>Nombre,Apellido,Nota1,Nota2,NotaFinal,Estado
+        <location filename="registro.cpp" line="80"/>
+        <source>Nombre,Nota1,Nota2,NotaFinal,Estado
 </source>
-        <translation type="vanished">Nome, Cognome, Nota 1, Nota 2, Nota finale, Stato
-</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="registro.cpp" line="100"/>
@@ -231,7 +176,7 @@
     <message>
         <location filename="registro.cpp" line="108"/>
         <source>Cargar Datos</source>
-        <translation type="unfinished"></translation>
+        <translation>Caricamento dati</translation>
     </message>
     <message>
         <location filename="registro.cpp" line="143"/>
@@ -244,8 +189,9 @@
         <translation>Uscire dal programma</translation>
     </message>
     <message>
-        <source>¿Estas seguro de que quieres salir del programa?</source>
-        <translation type="vanished">Sei sicuro di voler uscire dal programma?</translation>
+        <location filename="registro.cpp" line="180"/>
+        <source>¿Desea salir del programa?</source>
+        <translation>Vuoi uscire dal programma?</translation>
     </message>
 </context>
 </TS>

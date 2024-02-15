@@ -1,9 +1,9 @@
 <RCC>
     <qresource prefix="/">
-        <file>it_it.ts</file>
-        <file>it_it.qm</file>
         <file>../github.ico</file>
         <file>../add.ico</file>
         <file>../boleta.ico</file>
+        <file>portugues.qm</file>
+        <file>italiano.qm</file>
     </qresource>
 </RCC>

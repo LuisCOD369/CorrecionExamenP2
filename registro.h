@@ -1,6 +1,3 @@
-// https://github.com/FLiamTech/Registro-de-Notas
-
-
 #ifndef REGISTRO_H
 #define REGISTRO_H
 
