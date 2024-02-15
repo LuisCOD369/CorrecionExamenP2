@@ -1,0 +1,10 @@
+release/controlador.o
+release/creditosform.o
+release/ingresoform.o
+release/main.o
+release/modelo.o
+release/registro.o
+release/qrc_Recursos.o
+release/moc_creditosform.o
+release/moc_ingresoform.o
+release/moc_registro.o

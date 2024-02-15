@@ -1,0 +1,10 @@
+debug/controlador.o
+debug/creditosform.o
+debug/ingresoform.o
+debug/main.o
+debug/modelo.o
+debug/registro.o
+debug/qrc_Recursos.o
+debug/moc_creditosform.o
+debug/moc_ingresoform.o
+debug/moc_registro.o
