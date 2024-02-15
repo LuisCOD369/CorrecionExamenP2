@@ -2,8 +2,5 @@
     <qresource prefix="/">
         <file>portugues.qm</file>
         <file>italiano.qm</file>
-        <file>../github.ico</file>
-        <file>../add.ico</file>
-        <file>../boleta.ico</file>
     </qresource>
 </RCC>

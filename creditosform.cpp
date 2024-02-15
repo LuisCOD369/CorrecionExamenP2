@@ -1,5 +1,5 @@
 #include "creditosform.h"
-#include "ui_acercadeform.h"
+#include "ui_creditosform.h"
 
 AcercaDeForm::AcercaDeForm(QWidget *parent) :
     QDialog(parent),
