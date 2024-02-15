@@ -122,8 +122,8 @@ compiler_rcc_clean:
 release/qrc_Recursos.cpp: ../CorrecionExamen/Recursos.qrc \
 		../../../../Qt/Qt5.12.12/5.12.12/mingw73_64/bin/rcc.exe \
 		../add.ico \
-		../github.ico \
 		../CorrecionExamen/italiano.qm \
+		../github.ico \
 		../CorrecionExamen/portugues.qm \
 		../boleta.ico
 	C:\Qt\Qt5.12.12\5.12.12\mingw73_64\bin\rcc.exe -name Recursos ..\CorrecionExamen\Recursos.qrc -o release\qrc_Recursos.cpp

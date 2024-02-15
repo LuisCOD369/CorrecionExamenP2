@@ -40,7 +40,7 @@ public:
     {
         if (IngresoForm->objectName().isEmpty())
             IngresoForm->setObjectName(QString::fromUtf8("IngresoForm"));
-        IngresoForm->resize(267, 203);
+        IngresoForm->resize(260, 203);
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/add.ico"), QSize(), QIcon::Normal, QIcon::Off);
         IngresoForm->setWindowIcon(icon);

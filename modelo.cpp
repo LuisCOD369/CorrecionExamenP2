@@ -15,15 +15,7 @@ void Modelo::setNombre(const QString &newNombre)
     m_nombre = newNombre;
 }
 
-//const QString &Modelo::apellido() const
-//{
-//    return m_apellido;
-//}
 
-//void Modelo::setApellido(const QString &newApellido)
-//{
-//    m_apellido = newApellido;
-//}
 
 int Modelo::nota1() const
 {
