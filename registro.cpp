@@ -105,40 +105,45 @@ void Registro::guardar()
 
 void Registro::cargar()
 {
-    QFile archivo("datos.csv");
+    QString rutaArchivo = QFileDialog::getOpenFileName(this, tr("Cargar Datos"), QDir::homePath(), tr("Archivos CSV (*.csv)"));
 
-    if (archivo.open(QIODevice::ReadOnly | QIODevice::Text))
+    if (!rutaArchivo.isEmpty())
     {
-        QTextStream entrada(&archivo);
-        entrada.readLine();
-        modelosIngresados.clear();
+        QFile archivo(rutaArchivo);
 
-        while (!entrada.atEnd())
+        if (archivo.open(QIODevice::ReadOnly | QIODevice::Text))
         {
-            QString linea = entrada.readLine();
-            QStringList campos = linea.split(',');
+            QTextStream entrada(&archivo);
+            entrada.readLine(); // Leer la primera línea (encabezados) y descartarla
+            modelosIngresados.clear();
 
-            if (campos.size() == 6)
+            while (!entrada.atEnd())
             {
-                QString nombre = campos[0];
-                QString apellido = campos[1];
-                int nota1 = campos[2].toInt();
-                int nota2 = campos[3].toInt();
+                QString linea = entrada.readLine();
+                QStringList campos = linea.split(',');
 
-                Modelo *modelo = new Modelo(nombre, nota1, nota2);
-                modelosIngresados.append(modelo);
+                if (campos.size() == 5)
+                {
+                    QString nombre = campos[0];
+                    int nota1 = campos[1].toInt();
+                    int nota2 = campos[2].toInt();
+                    float notaFinal = campos[3].toFloat();
+                    QString estado = campos[4];
+
+                    Modelo *modelo = new Modelo(nombre, nota1, nota2);
+                    modelosIngresados.append(modelo);
+                }
             }
-        }
 
-        actualizarTabla();
-        archivo.close();
-    }
-    else
-    {
-        QMessageBox::warning(this, tr("Guardar"), tr("No se pudo cargar los datos"));
+            actualizarTabla();
+            archivo.close();
+        }
+        else
+        {
+            QMessageBox::warning(this, tr("Cargar"), tr("No se pudo cargar los datos"));
+        }
     }
 }
-
 void Registro::manejarDatosIngresados(Modelo *modelo)
 {
     modelosIngresados.append(modelo);
@@ -177,5 +182,11 @@ void Registro::on_actionSalir_triggered()
     {
         qApp->quit();
     }
+}
+
+
+void Registro::on_pushButton_2_clicked()
+{
+    cargar();
 }
 

@@ -9,7 +9,6 @@ public:
     Controlador();
     QString estado(Modelo *modelo);
     float notaMin(Modelo *modelo);
-
     int notaFinal(Modelo *modelo);
 private:
     Modelo m_estudiante;

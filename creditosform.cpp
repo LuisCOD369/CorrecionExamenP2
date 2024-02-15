@@ -15,7 +15,7 @@ AcercaDeForm::~AcercaDeForm()
 
 void AcercaDeForm::on_pushButton_released()
 {
-    QString URL = "https://github.com/LuisCOD369";
+    QString URL = "https://github.com/LuisCOD369/CorrecionExamenP2";
 
     QDesktopServices::openUrl(QUrl(URL));
 }
